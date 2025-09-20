@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selectors */
+        h1{
+            background-color: rgb(158, 93, 7);
+            color: aquamarine;
+        }
+
+        /* Class Selectors */
+        .p{
+            background-color: rgb(128, 155, 30);
+            color: azure;
+        }
+
+        /* Id Selectors */
+        #span{
+            background-color: black;
+            color: rgb(241, 247, 247);
+        }
+        
+        /* Child Selectors */
+        div > article{
+            background-color: rgb(119, 119, 202);
+            color: antiquewhite;
+        }
+        
+        /* Desendent Selectors */
+        div main {
+            background-color: rgb(15, 15, 196);
+            color: rgb(175, 166, 155);
+        }    
+
+        /* Universal Selectors */
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        /* Pseudo Selectors */
+        a:visited{
+            color: aqua;
+        }
+
+        a:link {
+            color: blue;
+        }
+
+        a:active{
+            color: rgb(209, 230, 24);
+        }
+
+        a:hover{
+            background-color: aquamarine;
+        }
+    </style> 
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident doloremque ea ab corporis repudiandae porro non perspiciatis doloribus delectus?</p>
+    <div>
+        <article>
+            This ia a article.
+        </article>
+    </div>
+    <span id="span">This ia a span</span>
+    <div>
+        <article>
+          <main>This is a main content</main>
+        </article>
+    </div>
+        <a href="https://www.google.com">Go to Google</a>
+        <a href="https://www.facebook.com">Go to Facebook</a>
+        <a href="https://www.telegram.com">Go to Telegram</a>
+</body>
+</html>

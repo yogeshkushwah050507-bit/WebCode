@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Designing</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(133, 132, 132);
+        margin: 25px;
+        padding: 50px;
+
+    }
+
+    #car {
+        position: absolute;
+    }
+
+    .card {
+        border: 2px solid gray;
+        width: 25vw;
+        height: 90vh;
+        background-color: aliceblue;
+        position: absolute;
+        left: 500px;
+        top: 30px;
+        /* box-shadow: 8px 10px 15px 5px rgb(219, 157, 157); */
+        box-shadow: 2px 0px 43px 15px #62727c8e;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        /* opacity: 0.20; */
+    }
+
+
+
+
+    div div img {
+        /* border-top-left-radius: ; */
+        position: absolute;
+        bottom: 350px;
+        left: 10px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    .capsule-tag {
+        display: inline-block;
+        padding: 0.3em 0.75em;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-radius: 999px;
+        /* This makes it pill-shaped */
+        font-size: 0.9em;
+        font-weight: 500;
+        position: absolute;
+        bottom: 300px;
+        left: 25px;
+        /* top: px; */
+    }
+
+    #tag {
+        position: absolute;
+        left: 100px;
+        /* bottom: 10px; */
+        /* padding: 10px; */
+    }
+
+    .content {
+        position: absolute;
+        bottom: 250px;
+        left: 25px;
+        font-size: 30px;
+        font-weight: 25px;
+        font-family: fantasy;
+    }
+
+    p {
+        font-size: medium;
+        font-weight: none;
+        font-family: cursive;
+        position: absolute;
+        bottom: -200px;
+        left: 35px;
+        margin: -40px;
+        padding: 4px;
+        /* position: absolute; */
+        top: 110px;
+    }
+
+    /* h2 {
+        /* position: absolute;
+    bottom: 2px; */
+    */
+    
+
+    #read {
+        position: absolute;
+        padding: 10px;
+        bottom: 10px;
+        left: 122px;
+        color: rgb(85, 139, 202);
+        font-style: bold;
+        background-color: rgba(100, 164, 207, 0.123);
+
+    }
+</style>
+
+<body>
+
+    <div class="card" id="car">
+        <div class="img">
+            <img width="320px" height="225px" src="gilley-aguilar-ywGDhTlf93E-unsplash.jpg" alt="Home">
+        </div>
+        <span class="capsule-tag">Nature</span>
+        <span class="capsule-tag" id="tag">Home</span>
+        <span class="capsule-tag" id="read"><b>Read More</b></span>
+        <div class="content">
+            <h2>Green Energy</h2>
+            <p>Nature is the most beautiful and precious gift to humanity. It includes everything around us—trees,
+                rivers, mountains, animals, and even the air we breathe. The vibrant colors of flowers, the sound of
+                birds singing, and the rhythm of flowing water bring peace to our minds.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

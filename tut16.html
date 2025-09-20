@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        
+        .div {
+            background-color: aqua;
+            color: rgb(7, 109, 75);
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: rgb(122, 122, 233);
+            color: rgb(76, 190, 190);
+            border: 2px solid rgb(160, 207, 30);
+            margin: 30px;
+            padding: 10px;
+            height: 200px;
+            box-sizing: border - box;
+        }
+
+        .box2 {
+            background-color: rgb(123, 123, 168);
+            color: rgb(10, 131, 131);
+            border: 2px solid rgb(161, 19, 50);
+            margin: 30px;
+            padding: 10px;
+            height: 200px;
+            box-sizing: border - box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div box1">I am a first div</div>
+    <div class="div box2">I am a second div</div>
+</body>
+
+</html>

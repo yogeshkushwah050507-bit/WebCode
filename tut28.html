@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+</head>
+<style>
+
+    .cards {
+        border: 2px solid black;
+        display: flow-root;
+    }
+
+    img {
+        float: right;
+    }
+
+    .card {
+        border: 2px solid red;
+    }
+    
+    .card:nth-child(3) {
+        background-color: aqua;
+        clear: both;
+    }
+</style>
+<body>
+    <div class="cards">
+        <img src="gilley-aguilar-ywGDhTlf93E-unsplash.jpg" alt="Home" width="300">
+        <div class="card ">Card 1
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore at itaque? Vel commodi id amet blanditiis error laborum deleniti delectus tempore. Culpa quod ut enim labore temporibus necessitatibus ea.</p>
+        </div>
+        <div class="card ">Card 2
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat repudiandae rerum, eum consequuntur quia ipsam iure, quae consectetur suscipit voluptatibus accusamus dolores repellendus? Corporis nulla, perspiciatis dolores molestias delectus illo quasi tenetur alias ut odit culpa accusantium laboriosam minima, eligendi eum itaque tempora incidunt aliquam eos? Animi placeat sunt nesciunt similique quas sapiente pariatur quidem voluptatum omnis, est reprehenderit, assumenda vel consequatur cumque veritatis nostrum, eveniet doloribus? Explicabo aperiam sequi minus aut sed? Explicabo labore corporis porro dolores exercitationem impedit excepturi suscipit veritatis atque quasi? Atque, iusto quia in obcaecati aspernatur quas cum optio fuga totam qui voluptatum laudantium?</p>
+        </div>
+        <div class="card ">Card 3</div>
+        <div class="card ">Card 4</div>
+    </div>
+</body>
+</html>

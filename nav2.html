@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using-Flexbox</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .chevron-down {
+        width: 5px;
+        height: 5px;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        transform: rotate(315deg);
+        margin-left: 10px;
+        /* padding: 1px; */
+    }
+
+    .nav {
+        border: 2px solid gray;
+        width: 1362px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div {
+        font-size: large;
+
+    }
+
+    img {
+    
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="logo">
+            <div class="div item">Products<span class="chevron-down"></span></div>
+            <div class="div item">Pricing<span class="chevron-down"></span></div>
+            <div class="div item">Resource<span class="chevron-down"></span></div>
+            <div class="div item">Our Company<span class="chevron-down"></span></div>
+        </nav>
+    </header>
+</body>
+
+</html>

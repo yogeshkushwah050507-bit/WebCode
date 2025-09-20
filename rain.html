@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain</title>
+</head>
+<style>
+    body
+</style>
+<body>
+   <script>
+    const count = 80;
+    for (let i = 0; i < count; i++) {
+        const drop = document.createElement('div'); // Fixed typo 'doucument'
+        drop.className = 'drop';
+        drop.style.left = `${Math.random() * 100}vw`;
+        drop.style.animationDuration = `${1 + Math.random() * 2}s`; // Fixed incorrect syntax
+        drop.style.animationDelay = `${Math.random() * 5}s`;
+        drop.style.width = `${6 + Math.random() * 6}px`;
+        drop.style.height = `${14 + Math.random() * 10}px`;
+        document.body.appendChild(drop);
+    }
+</script>
+
+</body>
+</html>
